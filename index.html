@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+        
+        <link href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="css/tema_c.min.css">
+    
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/acciones.js"></script>        
+        
+
+        <script src="phonegap.js"></script>
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+        <div data-role="page" id="page" data-theme="a">
+	<div data-role="header">
+		<h1>INICIO</h1>
+	</div>
+	<div ba data-role="content" align="center">	
+
+    <div style="width:50%">
+    <img src="css/portada/Icono.png" width="225PX">
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    			<a href="#" id="Listado" data-role="button">LISTADO</a>
+                <a href="#page3" data-role="button">BUSQ. POR GENERO</a>
+                
+		<!--<ul data-role="listview">
+
+            <li><a href="#page3">BUSC. POR GENERO</a></li>
+			<li><a href="#page4">BUSC. POR NOMBRE</a></li>
+            <li><a href="#page5">ACERCA DE</a></li>
+		</ul>	-->
+        </div>	
+     
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Kesehab</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-theme="b">
+	<div data-role="header" data-position="fixed">
+     <a href="#page" data-role="button" data-inline="true" data-icon="home" data-iconpos="notext"></a>
+		<h1>LISTADO</h1>
+	</div>
+    
+	<div data-role="content" data-position="fixed">
+    	<div id="all">
+<!-- aquise agrega el res-->
+
+    </div>
+    </div>
+	<div data-role="footer">
+		<h4>Kesehab</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="b">
+	<div data-role="header">
+    <a href="#page" data-role="button" data-inline="true" data-icon="home" data-iconpos="notext"></a>
+		<h1>GENEROS</h1>
+	</div>
+	<div data-role="content" align="center">	
+        
+
+<div style="width:50%">
+    ESCRIBE EL GENERO
+    DE LA PELICULA
+		<input type="text" id="genero">
+        
+        <button id="sid">BUSCAR</button>
+        
+       </div>
+
+   <div id="GEN">
+<!-- aquise agrega el res-->
+
+    </div>
+        	
+	    </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Kesehab</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page5" data-theme="b">
+	<div data-role="header">
+    <a href="#page" data-role="button" data-inline="true" data-icon="home" data-iconpos="notext"></a>
+		<h1>ACERCA DE</h1>
+	</div>
+	<div data-role="content" align="center">
+    <img src="css/portada/Icono.png" width="225PX">
+    <hr>	
+	<p>Holi :v</p>
+    Esta app sirve para facilitar la<br>busqueda de peliculas requeridas<br>en nuestra empresa, dando así<br> resultados eficaces y rapidos.
+    </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Kesehab</h4>
+	</div>
+</div>
+    </body>
+
+</html>
